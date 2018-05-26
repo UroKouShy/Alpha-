@@ -8,7 +8,7 @@ bot.on('ready', function () {
     console.log("Je suis connecté !")
   })
   
-  bot.login('NDQ4MDI1NDIwODMxNTIyODE2.DeaIjw.AZxmVZEh6FeMvPUcB3EyT3uJCJs')
+  bot.login('process.env.TOKEN')
 
   bot.on('message', message => {
     if (message.content === prefix + 'support'){
